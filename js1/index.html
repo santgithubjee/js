@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Title of the document-->
+  <title>Intro to JS</title>
+</head>
+<body>
+  <!--Paragraphs with ID's-->
+  <p id="intro">Introduction to JavaScript</p>
+  <p id="p1"></p>
+  <!--Included with the link of external script file-->
+  <script src="index.html">
+    // accessing the second paragraph and adding text to the paragraph
+document.getElementById("p1").innerHTML = "Hello JavaScript";
+
+// accessing the second paragraph and adding text color to it
+document.getElementById('p1').style.color = 'red';
+
+// accessing the first paragraph and modifying the font size of it
+document.getElementById('intro').style.fontSize = '35px';
+
+// accessing the whole body elements of the HTML and adding the background color to it
+document.body.style.backgroundColor = "lightyellow";
+
+  </script>
+</body>
+</html>
